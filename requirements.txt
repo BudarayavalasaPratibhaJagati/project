@@ -9,3 +9,4 @@ httpx
 python-dotenv
 
 passlib[bcrypt]
+email-validator
