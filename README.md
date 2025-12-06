@@ -41,3 +41,9 @@ tests/
 .github/
   └── workflows/
         └── ci.yml           # CI pipeline (pytest + Docker build/push)
+
+### Docker Hub Image
+
+Docker image is available at: `pratibhajagati/fast-api-calci`
+
+![Docker Hub screenshot](screenshots/dockerhub-fast-api-calci.png)
