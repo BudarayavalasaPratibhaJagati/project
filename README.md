@@ -106,3 +106,24 @@ tests/
   test_report_integration.py      # NEW integration test for /reports/summary
   report.e2e.spec.ts              # NEW E2E test for summary UI (Playwright)
   ... (other existing E2E tests)
+
+
+## Run the App Locally (without Docker)
+
+### Prerequisites
+- Python 3.10+ recommended
+- (Optional for E2E) Node.js 18+
+
+### Setup + Start
+```bash
+git clone https://github.com/BudarayavalasaPratibhaJagati/project.git
+cd project
+
+python -m venv .venv
+# Windows:
+.venv\Scripts\activate
+# macOS/Linux:
+# source .venv/bin/activate
+
+pip install -r requirements.txt
+uvicorn app.main:app --reload
